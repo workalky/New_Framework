@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite" verbose="10" parallel="false">
+
+	<!-- Put IP of localhost/Grid Hub machine -->
+	<parameter name="selenium.host" value="localhost" />
+
+	<!-- Put Port of localhost RC/Grid Hub machine -->
+	<parameter name="selenium.port" value="4444" />
+
+	<!-- <parameter name="selenium.browser" value="firefox" /> -->
+	<parameter name="selenium.url" value="http://www.linkedin.com" />
+	
+	<parameter name="workbook.path" value="XSLS\LinkedIn_Test_Cases.xlsx" />
+	<parameter name="testsheet.name" value="SignIn" />
+
+	<test name="Verify_Register_Page">
+	    <parameter name="selenium.browser" value="saucelab" />
+		<classes>
+			<class name="com.linkedIn.loginPage.Index.LoginPageIndex">
+				<methods>
+					<include name="verifyRegisterPage" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- <test name="Verify_Label_onPage">
+	    <parameter name="selenium.browser" value="chrome" />
+		<classes>
+			<class name="com.linkedIn.loginPage.Index.LoginPageIndex">
+				<methods>
+					<include name="verifyLabelinPage" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Verify_Mendatory_Fields">
+	    <parameter name="selenium.browser" value="firefox" />
+		<classes>
+			<class name="com.linkedIn.loginPage.Index.LoginPageIndex">
+				<methods>
+					<include name="verifyMendatoryFields" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+ 	<test name="Verify_Button_Functionality">
+ 	    <parameter name="selenium.browser" value="firefox" />
+		<classes>
+			<class name="com.linkedIn.loginPage.Index.LoginPageIndex">
+				<methods>
+					<include name="verifyJoinnowButton" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Click_Button_Functionality">
+	    <parameter name="selenium.browser" value="firefox" />
+		<classes>
+			<class name="com.linkedIn.loginPage.Index.LoginPageIndex">
+				<methods>
+					<include name="clickJoinnowButton" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Textbox_Edit_Functionality">
+	    <parameter name="selenium.browser" value="firefox" />
+		<classes>
+			<class name="com.linkedIn.loginPage.Index.LoginPageIndex">
+				<methods>
+					<include name="textboxEditFunctionality" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+
+<!--	<test name="Invalid_FirstName">
+		<classes>
+			<class name="com.intgrated.cases.CreateNewAccount">
+				<methods>
+					<include name="invalidFirstname" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Invalid_LastName">
+		<classes>
+			<class name="com.intgrated.cases.CreateNewAccount">
+				<methods>
+					<include name="invalidLastName" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Invalid_Emailid">
+		<classes>
+			<class name="com.intgrated.cases.CreateNewAccount">
+				<methods>
+					<include name="invalid_emailid" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Invalid_Password">
+		<classes>
+			<class name="com.intgrated.cases.CreateNewAccount">
+				<methods>
+					<include name="invalid_password" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Register_Success">
+		<classes>
+			<class name="com.intgrated.cases.CreateNewAccount">
+				<methods>
+					<include name="register_success" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Tab_Functionality">
+		<classes>
+			<class name="com.intgrated.cases.CreateNewAccount">
+				<methods>
+					<include name="tab_functionality" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Onclick_Functionality">
+		<classes>
+			<class name="com.intgrated.cases.CreateNewAccount">
+				<methods>
+					<include name="onclick_functionality" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Verify_Validation_Msg">
+		<classes>
+			<class name="com.intgrated.cases.CreateNewAccount">
+				<methods>
+					<include name="verify_validation_msg" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="User_Agreement_Link">
+		<classes>
+			<class name="com.intgrated.cases.CreateNewAccount">
+				<methods>
+					<include name="useragreement_link" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Privacy_Policy_Link">
+		<classes>
+			<class name="com.intgrated.cases.CreateNewAccount">
+				<methods>
+					<include name="privacypolicy_link" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Cookie_Policy_Link">
+		<classes>
+			<class name="com.intgrated.cases.CreateNewAccount">
+				<methods>
+					<include name="cookiepolicy_link" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+ --></suite>

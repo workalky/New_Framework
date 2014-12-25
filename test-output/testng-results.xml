@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> TC_LN_1: To verify that user see Register Page.</h3> </strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[ <table width="100%" border = "1" cellspacing="0"> <tr> <th bgcolor="Thistle"><font color="white"> OS Environment </font></th><th bgcolor="Thistle"><font color="white"> Browser Name </font></th> <th bgcolor="Thistle"><font color="white"> Browser Version </font></th> </tr><tr> <td align="center" valign="middle"><i>  Windows 8.1</i></td><td align="center" valign="middle"><i>internet explorer</i> </td><td align="center" valign="middle"><i>10</i></td></tr></table><br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong><u>Step: 1  <a href="http://www.linkedin.com"> Open URL </a></u></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong><u>Step: 2 Observe page</u></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify EmaiId field</br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color=238E23>--<img src="passed.png"/></font></br></br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify Password field</br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color=238E23>--<img src="passed.png"/></font></br></br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify "Sign In" button</br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color=238E23>--<img src="passed.png"/></font></br></br>]]>
+    </line>
+    <line>
+      <![CDATA[ <table width="100%" border = "1" cellspacing="0"> <tr> <th bgcolor="Thistle"><font color="white"> Start Time</font> </th> <th bgcolor="Thistle"><font color="white"> End Time</font> </th> <th bgcolor="Thistle"><font color="white"> Test Excution Time</font> </th> </tr><tr> <td align="center" valign="middle"><i>  Thu Dec 25 16:05:53 IST 2014</i></td><td align="center" valign="middle"><i>Thu Dec 25 16:06:04 IST 2014</i> </td><td align="center" valign="middle"><i>0 minutes 11 seconds</i></td></tr></table><br>]]>
+    </line>
+    <line>
+      <![CDATA[<h3> <font color=#00FF00> Passed--<img src="passed.png"/>--</font> </h2></br></br>]]>
+    </line>
+    <line>
+      <![CDATA[<font color=238E23>--<img src="passed.png"/></font></br></br>]]>
+    </line>
+  </reporter-output>
+  <suite name="suite" duration-ms="22911" started-at="2014-12-25T10:35:44Z" finished-at="2014-12-25T10:36:07Z">
+    <groups>
+    </groups>
+    <test name="Verify_Register_Page" duration-ms="22911" started-at="2014-12-25T10:35:44Z" finished-at="2014-12-25T10:36:07Z">
+      <class name="com.linkedIn.loginPage.Index.LoginPageIndex">
+        <test-method status="PASS" signature="getTestInfo()[pri:0, instance:com.linkedIn.loginPage.Index.LoginPageIndex@1176e8a]" name="getTestInfo" is-config="true" duration-ms="16" started-at="2014-12-25T16:05:44Z" finished-at="2014-12-25T16:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestInfo -->
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.linkedIn.loginPage.Index.LoginPageIndex@1176e8a]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2014-12-25T16:05:44Z" finished-at="2014-12-25T16:05:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@861c2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.linkedIn.loginPage.Index.LoginPageIndex@1176e8a]" name="setUp" is-config="true" duration-ms="11303" started-at="2014-12-25T16:05:44Z" finished-at="2014-12-25T16:05:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.linkedIn.loginPage.Index.LoginPageIndex.verifyRegisterPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyRegisterPage()[pri:0, instance:com.linkedIn.loginPage.Index.LoginPageIndex@1176e8a]" name="verifyRegisterPage" duration-ms="10013" started-at="2014-12-25T16:05:55Z" finished-at="2014-12-25T16:06:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> TC_LN_1: To verify that user see Register Page.</h3> </strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[ <table width="100%" border = "1" cellspacing="0"> <tr> <th bgcolor="Thistle"><font color="white"> OS Environment </font></th><th bgcolor="Thistle"><font color="white"> Browser Name </font></th> <th bgcolor="Thistle"><font color="white"> Browser Version </font></th> </tr><tr> <td align="center" valign="middle"><i>  Windows 8.1</i></td><td align="center" valign="middle"><i>internet explorer</i> </td><td align="center" valign="middle"><i>10</i></td></tr></table><br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong><u>Step: 1  <a href="http://www.linkedin.com"> Open URL </a></u></strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong><u>Step: 2 Observe page</u></strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[Verify EmaiId field</br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color=238E23>--<img src="passed.png"/></font></br></br>]]>
+            </line>
+            <line>
+              <![CDATA[Verify Password field</br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color=238E23>--<img src="passed.png"/></font></br></br>]]>
+            </line>
+            <line>
+              <![CDATA[Verify "Sign In" button</br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color=238E23>--<img src="passed.png"/></font></br></br>]]>
+            </line>
+            <line>
+              <![CDATA[ <table width="100%" border = "1" cellspacing="0"> <tr> <th bgcolor="Thistle"><font color="white"> Start Time</font> </th> <th bgcolor="Thistle"><font color="white"> End Time</font> </th> <th bgcolor="Thistle"><font color="white"> Test Excution Time</font> </th> </tr><tr> <td align="center" valign="middle"><i>  Thu Dec 25 16:05:53 IST 2014</i></td><td align="center" valign="middle"><i>Thu Dec 25 16:06:04 IST 2014</i> </td><td align="center" valign="middle"><i>0 minutes 11 seconds</i></td></tr></table><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.linkedIn.loginPage.Index.LoginPageIndex@1176e8a]" name="tearDown" is-config="true" duration-ms="1580" started-at="2014-12-25T16:06:05Z" finished-at="2014-12-25T16:06:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRegisterPage status=SUCCESS method=LoginPageIndex.verifyRegisterPage()[pri:0, instance:com.linkedIn.loginPage.Index.LoginPageIndex@1176e8a] output=<strong> <h3 style="color:DarkViolet"> TC_LN_1: To verify that user see Register Page.</h3> </strong></br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<h3> <font color=#00FF00> Passed--<img src="passed.png"/>--</font> </h2></br></br>]]>
+            </line>
+            <line>
+              <![CDATA[<font color=238E23>--<img src="passed.png"/></font></br></br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.linkedIn.loginPage.Index.LoginPageIndex -->
+    </test> <!-- Verify_Register_Page -->
+  </suite> <!-- suite -->
+</testng-results>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [suite]">
+  <parameter name="selenium.url" value="http://www.linkedin.com"/>
+  <parameter name="selenium.browser" value="firefox"/>
+  <parameter name="workbook.path" value="XSLS\LinkedIn_Test_Cases.xlsx"/>
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="testsheet.name" value="SignIn"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <test name="Verify_Button_Functionality(failed)">
+    <classes>
+      <class name="com.linkedIn.loginPage.Index.LoginPageIndex">
+        <methods>
+          <include name="verifyJoinnowButton"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="getTestInfo"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.linkedIn.loginPage.Index.LoginPageIndex -->
+    </classes>
+  </test> <!-- Verify_Button_Functionality(failed) -->
+  <test name="Click_Button_Functionality(failed)">
+    <classes>
+      <class name="com.linkedIn.loginPage.Index.LoginPageIndex">
+        <methods>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="getTestInfo"/>
+          <include name="clickJoinnowButton"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.linkedIn.loginPage.Index.LoginPageIndex -->
+    </classes>
+  </test> <!-- Click_Button_Functionality(failed) -->
+  <test name="Textbox_Edit_Functionality(failed)">
+    <classes>
+      <class name="com.linkedIn.loginPage.Index.LoginPageIndex">
+        <methods>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="getTestInfo"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="textboxEditFunctionality"/>
+        </methods>
+      </class> <!-- com.linkedIn.loginPage.Index.LoginPageIndex -->
+    </classes>
+  </test> <!-- Textbox_Edit_Functionality(failed) -->
+</suite> <!-- Failed suite [suite] -->
